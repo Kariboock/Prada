@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Montserrat:ital,wght@1,900&family=Poppins:ital,wght@1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth; 
+    font-family: 'DM Serif Text', serif;
+    font-size: 20px;
+
+    }
+ 
+
+.container{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    object-fit: contain;
+    object-position: center;
+    
+}
+
+.navegador{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+   
+}
+
+header nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+   
+
+
+
+
+}
+
+
+.h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100vw;
+    
+}
+.p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30vw;
+}
+
+#box2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./perfume.jpg);
+    background-position: bottom;
+    display: table;
+    background-attachment: fixed;
+}
+
+#box3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./cartera.jpg);
+    background-position: bottom;
+    display: table;
+    background-attachment: fixed;
+
+}
+
+#box4{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./zapato.jpg);
+    background-position: bottom;
+    display: table;
+    background-attachment: fixed;
+    }
+
